@@ -14,15 +14,26 @@ const CGFloat kFlatButtonNormalLineWidth = 2.0;
 @implementation VLineButton
 @synthesize bold = _bold;
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        [self configureLineButton];
+    }
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        
-        [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [self setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
-        self.titleEdgeInsets = UIEdgeInsetsMake(0, 8, 0, 8);
+        [self configureLineButton];
     }
     return self;
+}
+
+- (void)configureLineButton{
+    [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
+    self.titleEdgeInsets = UIEdgeInsetsMake(0, 8, 0, 8);
 }
 
 + (VLineButton *)button {
