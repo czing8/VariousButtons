@@ -1,4 +1,4 @@
 FlatButton
 ==========
 
-FlatButton,
+Button Collection
