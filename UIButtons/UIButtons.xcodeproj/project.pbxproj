@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F109E6881C90202400FF4BCE /* VCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6871C90202400FF4BCE /* VCustomButton.m */; };
 		F189EF8C1C168769002C9982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF8B1C168769002C9982 /* main.m */; };
 		F189EF8F1C168769002C9982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF8E1C168769002C9982 /* AppDelegate.m */; };
 		F189EF921C168769002C9982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF911C168769002C9982 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F109E6861C90202400FF4BCE /* VCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCustomButton.h; sourceTree = "<group>"; };
+		F109E6871C90202400FF4BCE /* VCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCustomButton.m; sourceTree = "<group>"; };
 		F189EF871C168769002C9982 /* UIButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F189EF8B1C168769002C9982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F189EF8D1C168769002C9982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 			children = (
 				F189EFA51C1687E4002C9982 /* LocationBtn.h */,
 				F189EFA61C1687E4002C9982 /* LocationBtn.m */,
+				F109E6861C90202400FF4BCE /* VCustomButton.h */,
+				F109E6871C90202400FF4BCE /* VCustomButton.m */,
 			);
 			path = CustomButtons;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				F189EF921C168769002C9982 /* ViewController.m in Sources */,
 				F189EFA71C1687E4002C9982 /* LocationBtn.m in Sources */,
 				F189EF8F1C168769002C9982 /* AppDelegate.m in Sources */,
+				F109E6881C90202400FF4BCE /* VCustomButton.m in Sources */,
 				F189EFAB1C168A8A002C9982 /* VLineButton.m in Sources */,
 				F189EF8C1C168769002C9982 /* main.m in Sources */,
 			);
