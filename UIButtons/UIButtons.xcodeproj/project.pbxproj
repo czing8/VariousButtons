@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F109E6881C90202400FF4BCE /* VCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6871C90202400FF4BCE /* VCustomButton.m */; };
+		F140316F1C96843D0004F996 /* VGradientColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F140316E1C96843D0004F996 /* VGradientColorButton.m */; };
+		F14031721C9685F80004F996 /* VExtendTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031701C9685F80004F996 /* VExtendTextButton.m */; };
+		F14031751C9686860004F996 /* bowl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14031731C9686860004F996 /* bowl@2x.png */; };
+		F140317A1C9687720004F996 /* location1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14031791C9687720004F996 /* location1@2x.png */; };
+		F140317E1C968AC90004F996 /* VFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F140317D1C968AC90004F996 /* VFlatButton.m */; };
 		F189EF8C1C168769002C9982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF8B1C168769002C9982 /* main.m */; };
 		F189EF8F1C168769002C9982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF8E1C168769002C9982 /* AppDelegate.m */; };
 		F189EF921C168769002C9982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F189EF911C168769002C9982 /* ViewController.m */; };
@@ -21,6 +26,14 @@
 /* Begin PBXFileReference section */
 		F109E6861C90202400FF4BCE /* VCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCustomButton.h; sourceTree = "<group>"; };
 		F109E6871C90202400FF4BCE /* VCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCustomButton.m; sourceTree = "<group>"; };
+		F140316D1C96843D0004F996 /* VGradientColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGradientColorButton.h; sourceTree = "<group>"; };
+		F140316E1C96843D0004F996 /* VGradientColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGradientColorButton.m; sourceTree = "<group>"; };
+		F14031701C9685F80004F996 /* VExtendTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VExtendTextButton.m; sourceTree = "<group>"; };
+		F14031711C9685F80004F996 /* VExtendTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VExtendTextButton.h; sourceTree = "<group>"; };
+		F14031731C9686860004F996 /* bowl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bowl@2x.png"; sourceTree = "<group>"; };
+		F14031791C9687720004F996 /* location1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location1@2x.png"; sourceTree = "<group>"; };
+		F140317C1C968AC90004F996 /* VFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFlatButton.h; sourceTree = "<group>"; };
+		F140317D1C968AC90004F996 /* VFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFlatButton.m; sourceTree = "<group>"; };
 		F189EF871C168769002C9982 /* UIButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F189EF8B1C168769002C9982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F189EF8D1C168769002C9982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +61,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F140316C1C96843D0004F996 /* GradientColorButton */ = {
+			isa = PBXGroup;
+			children = (
+				F140316D1C96843D0004F996 /* VGradientColorButton.h */,
+				F140316E1C96843D0004F996 /* VGradientColorButton.m */,
+			);
+			path = GradientColorButton;
+			sourceTree = "<group>";
+		};
+		F140317B1C968AC90004F996 /* FlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				F140317C1C968AC90004F996 /* VFlatButton.h */,
+				F140317D1C968AC90004F996 /* VFlatButton.m */,
+			);
+			path = FlatButton;
+			sourceTree = "<group>";
+		};
 		F189EF7E1C168769002C9982 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +102,8 @@
 				F189EF8E1C168769002C9982 /* AppDelegate.m */,
 				F189EF901C168769002C9982 /* ViewController.h */,
 				F189EF911C168769002C9982 /* ViewController.m */,
+				F140317B1C968AC90004F996 /* FlatButton */,
+				F140316C1C96843D0004F996 /* GradientColorButton */,
 				F189EFA81C168A8A002C9982 /* VLineButton */,
 				F189EFA11C16878D002C9982 /* CustomButtons */,
 				F189EF931C168769002C9982 /* Main.storyboard */,
@@ -93,6 +126,10 @@
 		F189EFA11C16878D002C9982 /* CustomButtons */ = {
 			isa = PBXGroup;
 			children = (
+				F14031791C9687720004F996 /* location1@2x.png */,
+				F14031731C9686860004F996 /* bowl@2x.png */,
+				F14031701C9685F80004F996 /* VExtendTextButton.m */,
+				F14031711C9685F80004F996 /* VExtendTextButton.h */,
 				F189EFA51C1687E4002C9982 /* LocationBtn.h */,
 				F189EFA61C1687E4002C9982 /* LocationBtn.m */,
 				F109E6861C90202400FF4BCE /* VCustomButton.h */,
@@ -167,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F140317A1C9687720004F996 /* location1@2x.png in Resources */,
+				F14031751C9686860004F996 /* bowl@2x.png in Resources */,
 				F189EF9A1C168769002C9982 /* LaunchScreen.storyboard in Resources */,
 				F189EF971C168769002C9982 /* Assets.xcassets in Resources */,
 				F189EF951C168769002C9982 /* Main.storyboard in Resources */,
@@ -180,12 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F140316F1C96843D0004F996 /* VGradientColorButton.m in Sources */,
 				F189EF921C168769002C9982 /* ViewController.m in Sources */,
 				F189EFA71C1687E4002C9982 /* LocationBtn.m in Sources */,
 				F189EF8F1C168769002C9982 /* AppDelegate.m in Sources */,
 				F109E6881C90202400FF4BCE /* VCustomButton.m in Sources */,
+				F14031721C9685F80004F996 /* VExtendTextButton.m in Sources */,
 				F189EFAB1C168A8A002C9982 /* VLineButton.m in Sources */,
 				F189EF8C1C168769002C9982 /* main.m in Sources */,
+				F140317E1C968AC90004F996 /* VFlatButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
