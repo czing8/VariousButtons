@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  UIButtons
+//  VariousButtons
 //
-//  Created by Vols on 15/12/8.
-//  Copyright © 2015年 Vols. All rights reserved.
+//  Created by Vols on 16/3/30.
+//  Copyright © 2016年 Vols. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -36,8 +36,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-
+    
+    
     
     [self.view addSubview:self.locationBtn];
     [self.view addSubview:self.customBtn];
@@ -46,7 +46,7 @@
     [self.view addSubview:self.anotherButton];
     
     [self.view addSubview:self.firFlatButton];
-
+    
     [self setGradientButton];
     [self displayUI];
 }
@@ -61,7 +61,7 @@
         VExtendTextButton * tagButton = [[VExtendTextButton alloc] init];
         
         tagButton.frame = CGRectMake(20, 100+30*i, 160, 30);
-//        tagButton.center = (CGPoint){self.view.center.x, 60+50*i};
+        //        tagButton.center = (CGPoint){self.view.center.x, 60+50*i};
         tagButton.tag = 2000 + i;
         tagButton.backgroundColor = [UIColor clearColor];
         [tagButton setImage:[UIImage imageNamed:buttonImages[i]] forState:UIControlStateNormal];
@@ -75,7 +75,7 @@
 
 
 - (void)setGradientButton{
-
+    
     NSMutableArray * colors = [@[RGB(76, 72, 250), RGB(260, 180, 200)] mutableCopy];
     
     VGradientColorButton *btn = [[VGradientColorButton alloc]initWithFrame:CGRectMake(20, 200, 150, 50) colors:colors gradientType:topToBottom];
@@ -92,14 +92,14 @@
     VGradientColorButton *btn2 = [[VGradientColorButton alloc]initWithFrame:CGRectMake(20, 320, 150, 50) colors:colors3 gradientType:upleftTolowRight];
     [btn2 setTitle:@"Title1" forState:UIControlStateNormal];
     [self.view addSubview:btn2];
-
+    
 }
 
 #pragma mark - actions
 
 - (void)locationAction:(UIButton *)button{
     NSLog(@"%s", __FUNCTION__);
-
+    
 }
 
 - (void)clickAction:(id)sender{
