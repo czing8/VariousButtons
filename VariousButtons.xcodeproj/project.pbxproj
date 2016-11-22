@@ -17,13 +17,25 @@
 		F1489A721DE02185000AD269 /* VExtendTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A621DE02185000AD269 /* VExtendTextButton.m */; };
 		F1489A731DE02185000AD269 /* VFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A651DE02185000AD269 /* VFlatButton.m */; };
 		F1489A741DE02185000AD269 /* VGradientColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A681DE02185000AD269 /* VGradientColorButton.m */; };
-		F1489A751DE02185000AD269 /* VLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A6B1DE02185000AD269 /* VLineButton.m */; };
 		F1489A781DE023A7000AD269 /* LineButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A771DE023A7000AD269 /* LineButtonController.m */; };
 		F1489A7C1DE0248F000AD269 /* VBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A7B1DE0248F000AD269 /* VBaseViewController.m */; };
 		F1489A7F1DE025E0000AD269 /* FlatButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A7E1DE025E0000AD269 /* FlatButtonController.m */; };
 		F1489A831DE028C6000AD269 /* VEffectsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A821DE028C6000AD269 /* VEffectsButton.m */; };
 		F1489A861DE02900000AD269 /* EffectsButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A851DE02900000AD269 /* EffectsButtonController.m */; };
 		F1489A8A1DE02DF1000AD269 /* VRippleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489A891DE02DF1000AD269 /* VRippleButton.m */; };
+		F1489AAC1DE2C9FB000AD269 /* RadioButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489AAB1DE2C9FB000AD269 /* RadioButtonController.m */; };
+		F1489AB11DE2CA66000AD269 /* VLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489AAF1DE2CA66000AD269 /* VLineButton.m */; };
+		F1489AB41DE2CABE000AD269 /* VTextSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489AB31DE2CABE000AD269 /* VTextSwitch.m */; };
+		F1489AB91DE2D97C000AD269 /* VSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489AB81DE2D97C000AD269 /* VSwitch.m */; };
+		F1489ABC1DE2DEB3000AD269 /* VFlatSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489ABB1DE2DEB3000AD269 /* VFlatSwitch.m */; };
+		F1489AC61DE3033E000AD269 /* KLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1489AC51DE3033E000AD269 /* KLSwitch.m */; };
+		F191D1381DE412F000F6BDBC /* VNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D1371DE412F000F6BDBC /* VNumberButton.m */; };
+		F191D13D1DE42DCB00F6BDBC /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F191D13A1DE42DCB00F6BDBC /* btn_selected.png */; };
+		F191D13E1DE42DCB00F6BDBC /* VerifyCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D13C1DE42DCB00F6BDBC /* VerifyCodeButton.m */; };
+		F191D1421DE433C100F6BDBC /* VActivityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D1411DE433C100F6BDBC /* VActivityButton.m */; };
+		F191D1451DE4352000F6BDBC /* VCircleActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D1441DE4352000F6BDBC /* VCircleActivityView.m */; };
+		F191D1481DE4397000F6BDBC /* V1NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D1471DE4397000F6BDBC /* V1NavigationController.m */; };
+		F191D14B1DE439A600F6BDBC /* V1NavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F191D14A1DE439A600F6BDBC /* V1NavAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +57,6 @@
 		F1489A651DE02185000AD269 /* VFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFlatButton.m; sourceTree = "<group>"; };
 		F1489A671DE02185000AD269 /* VGradientColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGradientColorButton.h; sourceTree = "<group>"; };
 		F1489A681DE02185000AD269 /* VGradientColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGradientColorButton.m; sourceTree = "<group>"; };
-		F1489A6A1DE02185000AD269 /* VLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLineButton.h; sourceTree = "<group>"; };
-		F1489A6B1DE02185000AD269 /* VLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLineButton.m; sourceTree = "<group>"; };
 		F1489A761DE023A7000AD269 /* LineButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineButtonController.h; sourceTree = "<group>"; };
 		F1489A771DE023A7000AD269 /* LineButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineButtonController.m; sourceTree = "<group>"; };
 		F1489A7A1DE0248F000AD269 /* VBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBaseViewController.h; sourceTree = "<group>"; };
@@ -59,6 +69,33 @@
 		F1489A851DE02900000AD269 /* EffectsButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsButtonController.m; sourceTree = "<group>"; };
 		F1489A881DE02DF1000AD269 /* VRippleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRippleButton.h; sourceTree = "<group>"; };
 		F1489A891DE02DF1000AD269 /* VRippleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRippleButton.m; sourceTree = "<group>"; };
+		F1489AAA1DE2C9FB000AD269 /* RadioButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButtonController.h; sourceTree = "<group>"; };
+		F1489AAB1DE2C9FB000AD269 /* RadioButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButtonController.m; sourceTree = "<group>"; };
+		F1489AAE1DE2CA66000AD269 /* VLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLineButton.h; sourceTree = "<group>"; };
+		F1489AAF1DE2CA66000AD269 /* VLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLineButton.m; sourceTree = "<group>"; };
+		F1489AB21DE2CABE000AD269 /* VTextSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTextSwitch.h; sourceTree = "<group>"; };
+		F1489AB31DE2CABE000AD269 /* VTextSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTextSwitch.m; sourceTree = "<group>"; };
+		F1489AB51DE2CC46000AD269 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		F1489AB61DE2CC46000AD269 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1489AB71DE2D97C000AD269 /* VSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSwitch.h; sourceTree = "<group>"; };
+		F1489AB81DE2D97C000AD269 /* VSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSwitch.m; sourceTree = "<group>"; };
+		F1489ABA1DE2DEB3000AD269 /* VFlatSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFlatSwitch.h; sourceTree = "<group>"; };
+		F1489ABB1DE2DEB3000AD269 /* VFlatSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFlatSwitch.m; sourceTree = "<group>"; };
+		F1489AC41DE3033E000AD269 /* KLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSwitch.h; sourceTree = "<group>"; };
+		F1489AC51DE3033E000AD269 /* KLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSwitch.m; sourceTree = "<group>"; };
+		F191D1361DE412F000F6BDBC /* VNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNumberButton.h; sourceTree = "<group>"; };
+		F191D1371DE412F000F6BDBC /* VNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNumberButton.m; sourceTree = "<group>"; };
+		F191D13A1DE42DCB00F6BDBC /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
+		F191D13B1DE42DCB00F6BDBC /* VerifyCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeButton.h; sourceTree = "<group>"; };
+		F191D13C1DE42DCB00F6BDBC /* VerifyCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeButton.m; sourceTree = "<group>"; };
+		F191D1401DE433C100F6BDBC /* VActivityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VActivityButton.h; sourceTree = "<group>"; };
+		F191D1411DE433C100F6BDBC /* VActivityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VActivityButton.m; sourceTree = "<group>"; };
+		F191D1431DE4352000F6BDBC /* VCircleActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCircleActivityView.h; sourceTree = "<group>"; };
+		F191D1441DE4352000F6BDBC /* VCircleActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCircleActivityView.m; sourceTree = "<group>"; };
+		F191D1461DE4397000F6BDBC /* V1NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V1NavigationController.h; sourceTree = "<group>"; };
+		F191D1471DE4397000F6BDBC /* V1NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V1NavigationController.m; sourceTree = "<group>"; };
+		F191D1491DE439A600F6BDBC /* V1NavAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V1NavAnimation.h; sourceTree = "<group>"; };
+		F191D14A1DE439A600F6BDBC /* V1NavAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V1NavAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				F14885281CAC1FBA00DA5513 /* main.m */,
+				F1489AB51DE2CC46000AD269 /* Constant.h */,
+				F1489AB61DE2CC46000AD269 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +182,8 @@
 				F1489A7E1DE025E0000AD269 /* FlatButtonController.m */,
 				F1489A841DE02900000AD269 /* EffectsButtonController.h */,
 				F1489A851DE02900000AD269 /* EffectsButtonController.m */,
+				F1489AAA1DE2C9FB000AD269 /* RadioButtonController.h */,
+				F1489AAB1DE2C9FB000AD269 /* RadioButtonController.m */,
 			);
 			path = MainClass;
 			sourceTree = "<group>";
@@ -150,10 +191,13 @@
 		F1489A591DE02185000AD269 /* NormalButtons */ = {
 			isa = PBXGroup;
 			children = (
+				F191D1391DE42DCB00F6BDBC /* VerifyCodeButton */,
+				F191D1351DE412BA00F6BDBC /* NumButton */,
+				F1489AAD1DE2CA66000AD269 /* LineButton */,
+				F1489AB01DE2CA66000AD269 /* RadioButton */,
 				F1489A5A1DE02185000AD269 /* CustomButtons */,
 				F1489A631DE02185000AD269 /* FlatButton */,
 				F1489A661DE02185000AD269 /* GradientColorButton */,
-				F1489A691DE02185000AD269 /* VLineButton */,
 			);
 			path = NormalButtons;
 			sourceTree = "<group>";
@@ -185,20 +229,15 @@
 			path = GradientColorButton;
 			sourceTree = "<group>";
 		};
-		F1489A691DE02185000AD269 /* VLineButton */ = {
-			isa = PBXGroup;
-			children = (
-				F1489A6A1DE02185000AD269 /* VLineButton.h */,
-				F1489A6B1DE02185000AD269 /* VLineButton.m */,
-			);
-			path = VLineButton;
-			sourceTree = "<group>";
-		};
 		F1489A791DE02476000AD269 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
 				F1489A7A1DE0248F000AD269 /* VBaseViewController.h */,
 				F1489A7B1DE0248F000AD269 /* VBaseViewController.m */,
+				F191D1461DE4397000F6BDBC /* V1NavigationController.h */,
+				F191D1471DE4397000F6BDBC /* V1NavigationController.m */,
+				F191D1491DE439A600F6BDBC /* V1NavAnimation.h */,
+				F191D14A1DE439A600F6BDBC /* V1NavAnimation.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -206,6 +245,7 @@
 		F1489A801DE02849000AD269 /* EffectButtons */ = {
 			isa = PBXGroup;
 			children = (
+				F191D13F1DE4338300F6BDBC /* ActivityButton */,
 				F1489A811DE028C6000AD269 /* VEffectsButton.h */,
 				F1489A821DE028C6000AD269 /* VEffectsButton.m */,
 				F1489A871DE02DF1000AD269 /* RippleButton */,
@@ -220,6 +260,60 @@
 				F1489A891DE02DF1000AD269 /* VRippleButton.m */,
 			);
 			path = RippleButton;
+			sourceTree = "<group>";
+		};
+		F1489AAD1DE2CA66000AD269 /* LineButton */ = {
+			isa = PBXGroup;
+			children = (
+				F1489AAE1DE2CA66000AD269 /* VLineButton.h */,
+				F1489AAF1DE2CA66000AD269 /* VLineButton.m */,
+			);
+			path = LineButton;
+			sourceTree = "<group>";
+		};
+		F1489AB01DE2CA66000AD269 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				F1489AB21DE2CABE000AD269 /* VTextSwitch.h */,
+				F1489AB31DE2CABE000AD269 /* VTextSwitch.m */,
+				F1489AB71DE2D97C000AD269 /* VSwitch.h */,
+				F1489AB81DE2D97C000AD269 /* VSwitch.m */,
+				F1489ABA1DE2DEB3000AD269 /* VFlatSwitch.h */,
+				F1489ABB1DE2DEB3000AD269 /* VFlatSwitch.m */,
+				F1489AC41DE3033E000AD269 /* KLSwitch.h */,
+				F1489AC51DE3033E000AD269 /* KLSwitch.m */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		F191D1351DE412BA00F6BDBC /* NumButton */ = {
+			isa = PBXGroup;
+			children = (
+				F191D1361DE412F000F6BDBC /* VNumberButton.h */,
+				F191D1371DE412F000F6BDBC /* VNumberButton.m */,
+			);
+			path = NumButton;
+			sourceTree = "<group>";
+		};
+		F191D1391DE42DCB00F6BDBC /* VerifyCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				F191D13A1DE42DCB00F6BDBC /* btn_selected.png */,
+				F191D13B1DE42DCB00F6BDBC /* VerifyCodeButton.h */,
+				F191D13C1DE42DCB00F6BDBC /* VerifyCodeButton.m */,
+			);
+			path = VerifyCodeButton;
+			sourceTree = "<group>";
+		};
+		F191D13F1DE4338300F6BDBC /* ActivityButton */ = {
+			isa = PBXGroup;
+			children = (
+				F191D1401DE433C100F6BDBC /* VActivityButton.h */,
+				F191D1411DE433C100F6BDBC /* VActivityButton.m */,
+				F191D1431DE4352000F6BDBC /* VCircleActivityView.h */,
+				F191D1441DE4352000F6BDBC /* VCircleActivityView.m */,
+			);
+			path = ActivityButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +342,7 @@
 		F148851C1CAC1FBA00DA5513 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Vols;
 				TargetAttributes = {
 					F14885231CAC1FBA00DA5513 = {
@@ -282,6 +376,7 @@
 				F14885371CAC1FBA00DA5513 /* LaunchScreen.storyboard in Resources */,
 				F14885341CAC1FBA00DA5513 /* Assets.xcassets in Resources */,
 				F14885321CAC1FBA00DA5513 /* Main.storyboard in Resources */,
+				F191D13D1DE42DCB00F6BDBC /* btn_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,19 +388,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1489A721DE02185000AD269 /* VExtendTextButton.m in Sources */,
+				F191D1451DE4352000F6BDBC /* VCircleActivityView.m in Sources */,
+				F191D1381DE412F000F6BDBC /* VNumberButton.m in Sources */,
 				F1489A831DE028C6000AD269 /* VEffectsButton.m in Sources */,
+				F1489AB11DE2CA66000AD269 /* VLineButton.m in Sources */,
+				F1489AC61DE3033E000AD269 /* KLSwitch.m in Sources */,
 				F1489A861DE02900000AD269 /* EffectsButtonController.m in Sources */,
 				F1489A731DE02185000AD269 /* VFlatButton.m in Sources */,
 				F1489A781DE023A7000AD269 /* LineButtonController.m in Sources */,
 				F148852C1CAC1FBA00DA5513 /* AppDelegate.m in Sources */,
 				F1489A6C1DE02185000AD269 /* MainMenuController.m in Sources */,
+				F191D13E1DE42DCB00F6BDBC /* VerifyCodeButton.m in Sources */,
+				F191D1421DE433C100F6BDBC /* VActivityButton.m in Sources */,
 				F1489A741DE02185000AD269 /* VGradientColorButton.m in Sources */,
 				F1489A8A1DE02DF1000AD269 /* VRippleButton.m in Sources */,
 				F1489A7F1DE025E0000AD269 /* FlatButtonController.m in Sources */,
+				F1489AAC1DE2C9FB000AD269 /* RadioButtonController.m in Sources */,
+				F191D14B1DE439A600F6BDBC /* V1NavAnimation.m in Sources */,
+				F1489AB41DE2CABE000AD269 /* VTextSwitch.m in Sources */,
 				F1489A6D1DE02185000AD269 /* NormalButtonController.m in Sources */,
 				F1489A7C1DE0248F000AD269 /* VBaseViewController.m in Sources */,
-				F1489A751DE02185000AD269 /* VLineButton.m in Sources */,
 				F14885291CAC1FBA00DA5513 /* main.m in Sources */,
+				F1489AB91DE2D97C000AD269 /* VSwitch.m in Sources */,
+				F191D1481DE4397000F6BDBC /* V1NavigationController.m in Sources */,
+				F1489ABC1DE2DEB3000AD269 /* VFlatSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +451,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -388,8 +496,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -416,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = VariousButtons/PrefixHeader.pch;
 				INFOPLIST_FILE = VariousButtons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VariousButtons;
@@ -427,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = VariousButtons/PrefixHeader.pch;
 				INFOPLIST_FILE = VariousButtons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VariousButtons;

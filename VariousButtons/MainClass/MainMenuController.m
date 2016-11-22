@@ -12,6 +12,7 @@
 #import "LineButtonController.h"
 #import "FlatButtonController.h"
 #import "EffectsButtonController.h"
+#import "RadioButtonController.h"
 
 @interface MainMenuController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -30,7 +31,7 @@
 }
 
 - (void)initData{
-    _dataSource =  @[@"Normal Button", @"Line Button", @"Flat Button",@"特效按钮"];
+    _dataSource =  @[@"Normal Button", @"Line&Flat Button", @"Button", @"特效按钮", @"Radio Button、Switch"];
 }
 
 
@@ -83,6 +84,9 @@
     else if (indexPath.row == 3) {
 //        [self.navigationController pushViewController:[[EffectsButtonController alloc] init] animated:YES];
         [self performSegueWithIdentifier:@"ToEffectsSegue" sender:self];  
+    }
+    else if (indexPath.row == 4) {
+        [self.navigationController pushViewController:[[RadioButtonController alloc] init] animated:YES];
     }
     
     [self performSelector:@selector(deselect:) withObject:tableView afterDelay:0.2f];

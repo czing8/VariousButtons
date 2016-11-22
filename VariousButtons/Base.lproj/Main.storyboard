@@ -70,7 +70,7 @@
         <!--Navigation Controller-->
         <scene sceneID="qzJ-Ag-IWY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="abe-SC-dC5" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="abe-SC-dC5" customClass="V1NavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GmT-84-nc1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

@@ -19,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = kRGB(250, 250, 250);
-//    self.view.backgroundColor = [UIColor whiteColor];
+//    self.view.backgroundColor = kRGB(250, 250, 250);
+    self.view.backgroundColor = [UIColor purpleColor];
 
     [self initNavControllerBar];
     [self initData];

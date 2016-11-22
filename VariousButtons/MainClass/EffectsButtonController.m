@@ -8,11 +8,15 @@
 
 #import "EffectsButtonController.h"
 #import "VEffectsButton.h"
+#import "VActivityButton.h"
 #import "VRippleButton.h"
 
-@interface EffectsButtonController ()
+#import "V1NavigationController.h"
+
+@interface EffectsButtonController () <VActivityButtonDelegate>
 
 @property (weak, nonatomic) IBOutlet VEffectsButton *effectsButton;
+@property (nonatomic, weak) VActivityButton * activityButton;
 
 @end
 
@@ -31,6 +35,7 @@
     
     [self setEffectsButton];
     [self setRippleButton];
+    [self setupActivityButton];
 }
 
 - (void)setRippleButton{
@@ -45,7 +50,7 @@
 - (void)setEffectsButton{
     float width = (self.view.frame.size.width - 44) / 4;
     float x = width / 2;
-    float y = 100;
+    float y = 20;
     
     // star button
     VEffectsButton *starButton = [[VEffectsButton alloc] initWithFrame:CGRectMake(x, y, 44, 44) image: [UIImage imageNamed:@"star"]];
@@ -82,10 +87,53 @@
 }
 
 
+- (void)setupActivityButton {
+    
+    for (int i = 0; i < 2; i ++) {
+        VActivityButton * activityBtn = [VActivityButton buttonWithFrame:CGRectMake(30, 120+i*60, self.view.bounds.size.width - 2 * 30, 50)];
+        activityBtn.delegate = self;
+        activityBtn.tag = 1000 + i;
+        [activityBtn setTitle:@"Login" forState:UIControlStateNormal];
+        [activityBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
+        [activityBtn setBackgroundColor:[UIColor whiteColor]];
+        [activityBtn addTarget:self action:@selector(clickAction:) forControlEvents:UIControlEventTouchUpInside];
+
+        [self.view addSubview:activityBtn];
+    }
+}
+
+
+
 #pragma mark - Actions
 
 - (void)clickAction:(id)sender{
-    NSLog(@"%s", __FUNCTION__);
+    if ([sender isKindOfClass:[VActivityButton class]]) {
+        [sender startAnimation];
+    }
+}
+
+
+
+
+#pragma mark JMAnimationButtonDelegate
+- (void)activityButtonDidStartAnimation:(VActivityButton *)activityButton{
+    NSLog(@"start");
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.8 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [activityButton stopAnimation];
+    });
+}
+
+- (void)activityButtonDidFinishAnimation:(VActivityButton *)activityButton {
+    NSLog(@"stop");
+}
+
+- (void)activityButtonWillFinishAnimation:(VActivityButton *)activityButton {
+    if (activityButton.tag == 1001) {
+        
+        UIViewController* vc = [[UIViewController alloc] init];
+        vc.view.backgroundColor = [UIColor orangeColor];
+        [((V1NavigationController*)self.navigationController) pushViewController:vc centerButton:activityButton];
+    }
 }
 
 

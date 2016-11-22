@@ -12,6 +12,8 @@
 #import "VExtendTextButton.h"
 #import "VGradientColorButton.h"
 
+#import "VerifyCodeButton.h"
+
 @interface NormalButtonController ()
 
 @property (nonatomic, strong) VFlatButton * firFlatButton;
@@ -23,13 +25,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
+//    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.firFlatButton];
     
+    [self setupVerifyCodeButton];
     [self setGradientButton];
     [self setExtendTextButton];
 }
 
+- (void)setupVerifyCodeButton {
+    
+    VerifyCodeButton* btn  = [VerifyCodeButton buttonWithFrame:CGRectMake((self.view.bounds.size.width - 120)/2, 60, 120, 40) clickHandler:^(VerifyCodeButton *btn) {
+        // 向服务器请求验证码
+    }];
+    [self.view addSubview:btn];
+}
 
 - (void)setExtendTextButton{
     
@@ -39,7 +49,7 @@
     for (int i = 0; i < 2; i ++) {
         VExtendTextButton * tagButton = [[VExtendTextButton alloc] init];
         
-        tagButton.frame = CGRectMake(20, 100+30*i, 160, 30);
+        tagButton.frame = CGRectMake(20, 100+30*i, 80, 30);
         //        tagButton.center = (CGPoint){self.view.center.x, 60+50*i};
         tagButton.tag = 2000 + i;
         tagButton.backgroundColor = [UIColor clearColor];
@@ -71,6 +81,8 @@
     [btn2 setTitle:@"Button" forState:UIControlStateNormal];
     [self.view addSubview:btn2];
 }
+
+
 
 #pragma mark - Actions
 
